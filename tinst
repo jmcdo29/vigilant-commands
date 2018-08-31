@@ -1,0 +1,5 @@
+for package in $*
+do
+  installString=$installString@types/$package' '
+done
+npm install --save-dev $installString

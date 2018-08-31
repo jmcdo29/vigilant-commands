@@ -1,0 +1,6 @@
+for file in $( find . -name "*.ts" )
+do
+  if [[ ! $file == *".spec."* && ! -a .$(echo $file | cut -d "." -f 2).spec.ts ]]; then
+    touch .$(echo $file | cut -d "." -f 2).spec.ts 
+  fi
+done

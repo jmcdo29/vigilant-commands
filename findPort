@@ -1,0 +1,2 @@
+netstat -ano | grep $1
+echo "To kill the process type taskkill /PID :TASKPID /F"

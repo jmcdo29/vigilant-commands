@@ -1,0 +1,7 @@
+if [ $# == 2  ]; then
+    cloc_ex --exclude-ext=$1 --exclude-dir=node_modules,dist,$2 ./
+elif [ $# == 1 ]; then
+    cloc_ex --exclude-ext=$1 --exclude-dir=node_modules,dist ./
+else
+  cloc_ex --exclude-dir=node_modules,dist ./
+fi

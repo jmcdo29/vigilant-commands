@@ -1,0 +1,7 @@
+for file in $( find . -name "*.$1" )
+do 
+  if [[ ! $file = *"node_modules"* ]]; then
+    cp $file .$(echo $file | cut -d "." -f 2).$2
+    rm $file
+  fi
+done

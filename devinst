@@ -1,2 +1,2 @@
 npm install --save-dev $*
-notify -t "Dev Install Complete" -m "Finished installing $* into dev dependencies." -i "./notifIcon.png"
+notify -t "Dev Install Complete" -m "Finished installing $* into dev dependencies." -i "$notifIcon"

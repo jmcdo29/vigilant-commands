@@ -1,2 +1,2 @@
 npm install --save $*
-notify -t "Installation Finished." -m "Finished installing $* into dependencies." -i "./notifIcon.png"
+notify -t "Installation Finished." -m "Finished installing $* into dependencies." -i "$notifIcon"

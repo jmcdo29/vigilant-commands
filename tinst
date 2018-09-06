@@ -3,3 +3,4 @@ do
   installString=$installString@types/$package' '
 done
 npm install --save-dev $installString
+notify -t "Type Install Finished!" -m "Finished type installation for $*." -i "./notifIcon.png"

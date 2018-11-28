@@ -1,2 +1,0 @@
-npm uninstall --save $*
-notify -t "Uninstall finished!" -m "Finished uninstalling $* from your package." -i "$notifIcon"

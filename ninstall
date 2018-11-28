@@ -1,2 +1,0 @@
-npm install --save $*
-notify -t "Installation Finished." -m "Finished installing $* into dependencies." -i "$notifIcon"

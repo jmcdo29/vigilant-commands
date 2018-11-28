@@ -1,1 +1,1 @@
-npm install -g %*
+yarn global add %*

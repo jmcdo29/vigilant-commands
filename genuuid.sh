@@ -24,6 +24,6 @@ uuid()
         esac
     done
     echo $id
-    echo $id | clip
+    printf $id | clip
 }
 uuid

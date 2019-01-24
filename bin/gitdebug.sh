@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#! /bin/sh
 set a=$1
 set a=$a:~1,-1%
 set b=$2

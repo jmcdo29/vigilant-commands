@@ -1,3 +1,3 @@
-#!/usr/bin/env sh
+#! /bin/sh
 npm install -D $*
 notify -t "Dev Install Complete" -m "Finished installing $* into dev dependencies." -i "$notifIcon"

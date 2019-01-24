@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#! /bin/sh
 count=0
 for file in $( find . -name "*.ts" )
 do

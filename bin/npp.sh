@@ -1,2 +1,2 @@
-#!/usr/bin/env sh
+#! /bin/sh
 "C:\Program Files\Notepad++\notepad++.exe"

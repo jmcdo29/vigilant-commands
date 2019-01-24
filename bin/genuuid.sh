@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#! /bin/sh
 uuid()
 {
     local N B C='89ab'

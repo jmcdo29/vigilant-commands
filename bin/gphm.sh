@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#! /bin/sh
 git add .
 git commit -m $1
 git push heroku master

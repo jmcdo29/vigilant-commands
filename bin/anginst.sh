@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#! /bin/sh
 for package in $*
 do
   installString=$installString@angular/$package' '
